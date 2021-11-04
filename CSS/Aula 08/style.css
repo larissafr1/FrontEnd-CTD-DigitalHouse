@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+div {
+height: 632px;
+background-image: url('https://otakukart.com/wp-content/uploads/2021/08/Fear-Street-Part-1-1994.jpg');
+background-position: center;
+}
+
+h1 {
+    background-color: rgb(190, 48, 4);
+}
+
+span {
+    background-color: rgb(230, 183, 56);
+}
+
+body {
+background-color: rgb(50, 13, 58);
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: violet;
+}
