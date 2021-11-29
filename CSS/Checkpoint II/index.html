@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="checkpoint.css">
+
+  <title>Beagá</title>
+
+</head>
+<body>
+
+  <h1>FORMULÁRIO BH</h1>
+
+  <form action="/cadastrar" name="cadastro-usuario">
+    <fieldset form="cadastro-usuario"> 
+      <legend>Dados Pessoais</legend>
+
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+      </div>
+      
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Insira o email"> 
+      </div>
+
+      <div>
+        <label for="pwd">Telefone:</label>
+        <input type="number" name="telefone" id="telefone" placeholder="Insira seu número"> 
+      </div>
+
+      <div>
+        <label for="data">Data de nascimento:</label> 
+        <input type="date" name="data" id="data" min="1980-01-01" value="1990-12-31">
+      </div>
+
+      <legend>Você é maior de idade?</legend>
+    
+      <div>
+        <input type="radio" name="opção" id="sim" checked> <label for="sim">Sim</label>
+        <input type="radio" name="opção" id="não" > <label for="não">Não</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset form="cadastro-usuario">
+      <legend>Interesse</legend>
+
+      <div>
+        <label for="curso">Interesse: </label>
+        <select name="curso" id="curso">
+          <option value="1">Turista</option>
+          <option value="2">Residente</option>
+          <option value="3">Estudante</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="curso">O que fazer na cidade: </label>
+        <select name="curso" id="curso">
+          <option value="1">Trilha</option>
+          <option value="2">Barzinho</option>
+          <option value="3">Circuito Liberdade</option>
+          <option value="4">City Tour</option>
+          <option value="5">Feiras, shoppings e lojas de rua</option>
+          <option value="6">Jogo no Mineirão</option>
+        </select>
+      </div>
+
+    </fieldset>
+
+
+    
+    <div class="buttons-div">
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
