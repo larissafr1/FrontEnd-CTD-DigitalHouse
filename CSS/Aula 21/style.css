@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gridContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 30px 1fr;
+
+    grid-template-areas: 
+    "header header"
+    "main aside";
+}
+
+.gridItem {
+    border: 1px solid;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
